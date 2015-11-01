@@ -8,13 +8,12 @@ Always perform a backup of your system and your data before using this files!
 #Connect the hardware
 Connect PlainDAC+BBB or PlainDSP-BBB as follows
 
-P9.02 -> I2C address select (GND)
-P9.27 -> LRCK
-P9.41 -> DATA
-P9.42 -> BCK
-P9.25 -> MCLK
-
-The power input pins (GND, 3v3, 5V) to the matching pins on your BBB.
+1. P9.02 -> I2C address select (GND)
+2. P9.27 -> LRCK
+3. P9.41 -> DATA
+4. P9.42 -> BCK
+5. P9.25 -> MCLK
+6. the power input pins (GND, 3v3, 5V) to the matching pins on your BBB.
 
 
 # Install the custom kernel
