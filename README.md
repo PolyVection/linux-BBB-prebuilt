@@ -12,7 +12,7 @@ Connect PlainDAC+BBB or PlainDSP-BBB as follows
 2. P9.27 -> LRCK
 3. P9.41 -> DATA
 4. P9.42 -> BCK
-5. P9.25 -> MCLK
+5. P9.25 -> GPIO (single pin next to the audio connector)
 6. the power input pins (GND, 3v3, 5V) to the matching pins on your BBB.
 
 
