@@ -18,8 +18,8 @@ Connect PlainDAC+BBB or PlainDSP-BBB as follows
 
 # Install the custom kernel
 1.  ssh to your BBB
-2.  git clone https://github.com/PolyVection/linux-BBB-prebuild.git
-3.  cd linux-BBB-prebuild
+2.  git clone https://github.com/PolyVection/linux-BBB-prebuilt.git
+3.  cd linux-BBB-prebuilt
 4.  sudo cp -r lib/* /lib
 5.  sudo mkdir /boot/backup
 6.  sudo mv /boot/initrd.img-* /boot/backup/
